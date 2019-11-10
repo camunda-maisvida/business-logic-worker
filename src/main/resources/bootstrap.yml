@@ -1,9 +1,9 @@
 spring:
   application:
-    name: business-logic-worker-config
+    name: business-logic-worker
   cloud:
     config:
-      uri: https://maisvida-configuration.cfapps.io/
+      uri: https://maisvida-configuration-server.cfapps.io/
       password: ${config.server.password}
       username: ${config.server.user}
   profiles:
