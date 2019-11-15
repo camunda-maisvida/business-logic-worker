@@ -30,7 +30,7 @@ public class VerificarDiasDisponiveisWorker {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(VerificarDiasDisponiveisWorker.class);
 
-	@Scheduled(fixedRate = 30000)
+	@Scheduled(fixedRate = 10000)
 	public void fetchExternalTask() throws IOException, InterruptedException {		
 
 		final ObjectMapper mapper = new ObjectMapper();
